@@ -3,6 +3,7 @@ package caroolt.com.github.alunos_rm551738_rm97643
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
+import android.view.ViewGroup
 import android.widget.*
 import androidx.activity.viewModels
 import androidx.appcompat.app.AlertDialog
@@ -354,8 +355,8 @@ class MainActivity : AppCompatActivity() {
                 👨‍🏫 Professor: Ewerton Carreira
                 🌪️ Tema: Eventos Extremos
                 
-                👤 Aluno 1: [Nome] - RM551738
-                👤 Aluno 2: [Nome] - RM97643
+                👤 Aluno 1: Daniel Marin Palma - RM551738
+                👤 Aluno 2: Carolina Teixeira Coelho - RM97643
                 
                 📱 Aplicativo desenvolvido em Android + Kotlin
                 🏗️ Arquitetura: MVVM com Room Database
@@ -401,7 +402,8 @@ class SimpleEventAdapter(private val onDeleteClick: (Event) -> Unit) :
     }
     
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val layout = LinearLayout(parent.context).apply {
+        val context = parent.context
+        val layout = LinearLayout(context).apply {
             orientation = LinearLayout.VERTICAL
             setPadding(32, 24, 32, 24)
             setBackgroundColor(0xFFFFFFFF.toInt())

@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">Eventos Extremos</string>
+    <string name="tipo_do_evento">Tipo do Evento</string>
+    <string name="local_s_o_paulo">Local: São Paulo</string>
+    <string name="excluir">Excluir</string>
+    <string name="n_vel_de_impacto">Nível de Impacto</string>
+    <string name="data_do_evento">Data do Evento</string>
+    <string name="pessoas_afetadas">Pessoas Afetadas</string>
+    <string name="registro_de_eventos_extremos">🌪️ Registro de Eventos Extremos 🌍</string>
+    <string name="nome_do_local_cidade_bairro">Nome do local (cidade/bairro)</string>
+    <string name="tipo_do_evento_extremo">Tipo do evento extremo</string>
+    <string name="grau_de_impacto">Grau de impacto</string>
+    <string name="data_do_evento_dd_mm_aaaa">Data do evento (DD/MM/AAAA)</string>
+    <string name="n_mero_estimado_de_pessoas_afetadas">Número estimado de pessoas afetadas</string>
+    <string name="incluir">Incluir</string>
+    <string name="ver_identifica_o">Ver Identificação</string>
+    <string name="evento_chuva_intensa">🌧️ Chuva Intensa</string>
+    <string name="impacto_severo">⚠️ Impacto: Severo</string>
+    <string name="data_15_12_2024">📅 15/12/2024</string>
+    <string name="pessoas_afetadas_1500">👥 Pessoas afetadas: 1.500</string>
+    <string name="identifica_o_da_equipe">👥 Identificação da Equipe</string>
+    <string name="turma_3sir_gs1_2025">🎓 Turma: 3SIR - GS1 2025</string>
+    <string name="professor_ewerton_carreira">👨‍🏫 Professor: Ewerton Carreira</string>
+    <string name="tema_eventos_extremos">🌪️ Tema: Eventos Extremos</string>
+    <string name="aluno_1_daniel_marin_palma_rm551738">👤 Aluno 1: Daniel Marin Palma - RM551738</string>
+    <string name="aluno_2_carolina_teixeira_coelho_rm97643">👤 Aluno 2: Carolina Teixeira Coelho - RM97643</string>
+    <string name="aplicativo_desenvolvido_em_android_kotlin">📱 Aplicativo desenvolvido em Android + Kotlin</string>
+    <string name="arquitetura_mvvm_com_room_database">🏗️ Arquitetura: MVVM com Room Database</string>
+    <string name="funcionalidades_implementadas">🎯 Funcionalidades Implementadas:</string>
+    <string name="cadastro_de_eventos_extremos">✅ Cadastro de eventos extremos</string>
+    <string name="valida_o_completa_de_campos">✅ Validação completa de campos</string>
+    <string name="persist_ncia_com_sqlite_room">✅ Persistência com SQLite/Room</string>
+    <string name="recyclerview_customizado">✅ RecyclerView customizado</string>
+    <string name="exclus_o_individual_de_itens">✅ Exclusão individual de itens</string>
+    <string name="filtros_por_tipo_de_impacto_b_nus">✅ Filtros por tipo de impacto (BÔNUS)</string>
+    <string name="voltar">← Voltar</string>
 </resources>

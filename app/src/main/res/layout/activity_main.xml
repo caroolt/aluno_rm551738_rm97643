@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -10,7 +11,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="🌪️ Registro de Eventos Extremos 🌍"
+        android:text="@string/registro_de_eventos_extremos"
         android:textSize="24sp"
         android:textStyle="bold"
         android:textColor="#2E7D32"
@@ -36,7 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:hint="Nome do local (cidade/bairro)"
+                android:hint="@string/nome_do_local_cidade_bairro"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -52,14 +53,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:hint="Tipo do evento extremo"
+                android:hint="@string/tipo_do_evento_extremo"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
 
                 <AutoCompleteTextView
                     android:id="@+id/et_event_type"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="none" />
+                    android:inputType="none"
+                    android:contentDescription="@string/tipo_do_evento_extremo"
+                    tools:ignore="LabelFor" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -68,14 +71,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:hint="Grau de impacto"
+                android:hint="@string/grau_de_impacto"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
 
                 <AutoCompleteTextView
                     android:id="@+id/et_impact_level"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="none" />
+                    android:inputType="none"
+                    android:contentDescription="@string/grau_de_impacto"
+                    tools:ignore="LabelFor" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -84,7 +89,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:hint="Data do evento (DD/MM/AAAA)"
+                android:hint="@string/data_do_evento_dd_mm_aaaa"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -100,7 +105,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="24dp"
-                android:hint="Número estimado de pessoas afetadas"
+                android:hint="@string/n_mero_estimado_de_pessoas_afetadas"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -116,7 +121,7 @@
                 android:id="@+id/btn_include"
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
-                android:text="Incluir"
+                android:text="@string/incluir"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:backgroundTint="#4CAF50"
@@ -127,7 +132,7 @@
                 android:id="@+id/btn_identification"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
-                android:text="Ver Identificação"
+                android:text="@string/ver_identifica_o"
                 android:textSize="16sp"
                 android:backgroundTint="#2196F3"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"
